@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C9E69AE1FCA9C37008A6CA8 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E69AA1FCA9C37008A6CA8 /* MBProgressHUD+NJ.m */; };
-		7C9E69AF1FCA9C37008A6CA8 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C9E69AB1FCA9C37008A6CA8 /* MBProgressHUD.bundle */; };
-		7C9E69B01FCA9C37008A6CA8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E69AD1FCA9C37008A6CA8 /* MBProgressHUD.m */; };
 		7C9E69D91FCABB7C008A6CA8 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E69B31FCABB7C008A6CA8 /* MKAnnotationView+WebCache.m */; };
 		7C9E69DA1FCABB7C008A6CA8 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E69B51FCABB7C008A6CA8 /* NSData+ImageContentType.m */; };
 		7C9E69DB1FCABB7C008A6CA8 /* NSImage+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E69B71FCABB7C008A6CA8 /* NSImage+WebCache.m */; };
@@ -46,26 +43,10 @@
 		7CB7781D1FC967080076EDAE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB778101FC967080076EDAE /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		7CB7781E1FC967080076EDAE /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB778121FC967080076EDAE /* View+MASAdditions.m */; };
 		7CB7781F1FC967090076EDAE /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB778151FC967080076EDAE /* ViewController+MASAdditions.m */; };
-		7CB7782C1FC96D610076EDAE /* IMG_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CB778211FC96D610076EDAE /* IMG_1.jpg */; };
-		7CB7782D1FC96D610076EDAE /* IMG_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CB778221FC96D610076EDAE /* IMG_10.jpg */; };
-		7CB7782E1FC96D610076EDAE /* IMG_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CB778231FC96D610076EDAE /* IMG_11.jpg */; };
-		7CB7782F1FC96D610076EDAE /* IMG_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CB778241FC96D610076EDAE /* IMG_2.jpg */; };
-		7CB778301FC96D610076EDAE /* IMG_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CB778251FC96D610076EDAE /* IMG_3.jpg */; };
-		7CB778311FC96D610076EDAE /* IMG_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CB778261FC96D610076EDAE /* IMG_4.jpg */; };
-		7CB778321FC96D610076EDAE /* IMG_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CB778271FC96D610076EDAE /* IMG_5.jpg */; };
-		7CB778331FC96D610076EDAE /* IMG_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CB778281FC96D610076EDAE /* IMG_6.jpg */; };
-		7CB778341FC96D610076EDAE /* IMG_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CB778291FC96D610076EDAE /* IMG_7.jpg */; };
-		7CB778351FC96D610076EDAE /* IMG_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7782A1FC96D610076EDAE /* IMG_8.jpg */; };
-		7CB778361FC96D610076EDAE /* IMG_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CB7782B1FC96D610076EDAE /* IMG_9.jpg */; };
 		7CB778391FC970D80076EDAE /* BrowseImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB778381FC970D80076EDAE /* BrowseImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7C9E69A91FCA9C37008A6CA8 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
-		7C9E69AA1FCA9C37008A6CA8 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
-		7C9E69AB1FCA9C37008A6CA8 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
-		7C9E69AC1FCA9C37008A6CA8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		7C9E69AD1FCA9C37008A6CA8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		7C9E69B21FCABB7C008A6CA8 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		7C9E69B31FCABB7C008A6CA8 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		7C9E69B41FCABB7C008A6CA8 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -142,17 +123,6 @@
 		7CB778131FC967080076EDAE /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		7CB778141FC967080076EDAE /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		7CB778151FC967080076EDAE /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		7CB778211FC96D610076EDAE /* IMG_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1.jpg; sourceTree = "<group>"; };
-		7CB778221FC96D610076EDAE /* IMG_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_10.jpg; sourceTree = "<group>"; };
-		7CB778231FC96D610076EDAE /* IMG_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_11.jpg; sourceTree = "<group>"; };
-		7CB778241FC96D610076EDAE /* IMG_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2.jpg; sourceTree = "<group>"; };
-		7CB778251FC96D610076EDAE /* IMG_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3.jpg; sourceTree = "<group>"; };
-		7CB778261FC96D610076EDAE /* IMG_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4.jpg; sourceTree = "<group>"; };
-		7CB778271FC96D610076EDAE /* IMG_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5.jpg; sourceTree = "<group>"; };
-		7CB778281FC96D610076EDAE /* IMG_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_6.jpg; sourceTree = "<group>"; };
-		7CB778291FC96D610076EDAE /* IMG_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_7.jpg; sourceTree = "<group>"; };
-		7CB7782A1FC96D610076EDAE /* IMG_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8.jpg; sourceTree = "<group>"; };
-		7CB7782B1FC96D610076EDAE /* IMG_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_9.jpg; sourceTree = "<group>"; };
 		7CB778371FC970D80076EDAE /* BrowseImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowseImageViewController.h; sourceTree = "<group>"; };
 		7CB778381FC970D80076EDAE /* BrowseImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowseImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,18 +138,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7C9E69A81FCA9C37008A6CA8 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				7C9E69A91FCA9C37008A6CA8 /* MBProgressHUD+NJ.h */,
-				7C9E69AA1FCA9C37008A6CA8 /* MBProgressHUD+NJ.m */,
-				7C9E69AB1FCA9C37008A6CA8 /* MBProgressHUD.bundle */,
-				7C9E69AC1FCA9C37008A6CA8 /* MBProgressHUD.h */,
-				7C9E69AD1FCA9C37008A6CA8 /* MBProgressHUD.m */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
 		7C9E69B11FCABB7C008A6CA8 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,8 +212,6 @@
 				7CB777F91FC9646F0076EDAE /* CycleImageScrollView.h */,
 				7CB777FA1FC9646F0076EDAE /* CycleImageScrollView.m */,
 				7C9E69B11FCABB7C008A6CA8 /* SDWebImage */,
-				7C9E69A81FCA9C37008A6CA8 /* MBProgressHUD */,
-				7CB778201FC96D610076EDAE /* imgs */,
 				7CB777FC1FC967080076EDAE /* Masonry */,
 				7CB777E91FC9644C0076EDAE /* Main.storyboard */,
 				7CB777EC1FC9644C0076EDAE /* Assets.xcassets */,
@@ -296,24 +252,6 @@
 				7CB778151FC967080076EDAE /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
-			sourceTree = "<group>";
-		};
-		7CB778201FC96D610076EDAE /* imgs */ = {
-			isa = PBXGroup;
-			children = (
-				7CB778211FC96D610076EDAE /* IMG_1.jpg */,
-				7CB778221FC96D610076EDAE /* IMG_10.jpg */,
-				7CB778231FC96D610076EDAE /* IMG_11.jpg */,
-				7CB778241FC96D610076EDAE /* IMG_2.jpg */,
-				7CB778251FC96D610076EDAE /* IMG_3.jpg */,
-				7CB778261FC96D610076EDAE /* IMG_4.jpg */,
-				7CB778271FC96D610076EDAE /* IMG_5.jpg */,
-				7CB778281FC96D610076EDAE /* IMG_6.jpg */,
-				7CB778291FC96D610076EDAE /* IMG_7.jpg */,
-				7CB7782A1FC96D610076EDAE /* IMG_8.jpg */,
-				7CB7782B1FC96D610076EDAE /* IMG_9.jpg */,
-			);
-			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,21 +312,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CB7782D1FC96D610076EDAE /* IMG_10.jpg in Resources */,
-				7CB778361FC96D610076EDAE /* IMG_9.jpg in Resources */,
-				7C9E69AF1FCA9C37008A6CA8 /* MBProgressHUD.bundle in Resources */,
-				7CB7782F1FC96D610076EDAE /* IMG_2.jpg in Resources */,
 				7CB777F01FC9644C0076EDAE /* LaunchScreen.storyboard in Resources */,
-				7CB778321FC96D610076EDAE /* IMG_5.jpg in Resources */,
-				7CB778331FC96D610076EDAE /* IMG_6.jpg in Resources */,
-				7CB7782C1FC96D610076EDAE /* IMG_1.jpg in Resources */,
-				7CB778311FC96D610076EDAE /* IMG_4.jpg in Resources */,
-				7CB778341FC96D610076EDAE /* IMG_7.jpg in Resources */,
 				7CB777ED1FC9644C0076EDAE /* Assets.xcassets in Resources */,
 				7CB777EB1FC9644C0076EDAE /* Main.storyboard in Resources */,
-				7CB7782E1FC96D610076EDAE /* IMG_11.jpg in Resources */,
-				7CB778351FC96D610076EDAE /* IMG_8.jpg in Resources */,
-				7CB778301FC96D610076EDAE /* IMG_3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,9 +336,7 @@
 				7CB778171FC967080076EDAE /* MASConstraint.m in Sources */,
 				7C9E69DF1FCABB7C008A6CA8 /* SDWebImageDecoder.m in Sources */,
 				7CB7781F1FC967090076EDAE /* ViewController+MASAdditions.m in Sources */,
-				7C9E69AE1FCA9C37008A6CA8 /* MBProgressHUD+NJ.m in Sources */,
 				7CB778191FC967080076EDAE /* MASLayoutConstraint.m in Sources */,
-				7C9E69B01FCA9C37008A6CA8 /* MBProgressHUD.m in Sources */,
 				7CB7781C1FC967080076EDAE /* NSArray+MASAdditions.m in Sources */,
 				7CB7781B1FC967080076EDAE /* MASViewConstraint.m in Sources */,
 				7C9E69EB1FCABB7C008A6CA8 /* UIView+WebCacheOperation.m in Sources */,
