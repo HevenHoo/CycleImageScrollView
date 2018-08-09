@@ -8,7 +8,6 @@
 
 #import "CycleImageScrollView.h"
 #import "UIImageView+WebCache.h"
-#import "MBProgressHUD.h"
 #import "Masonry.h"
 
 @implementation CycleImageScrollView
@@ -206,32 +205,6 @@
     return imageViewRect;
 }
 
-- (IBAction)saveImageToAlbum:(id)sender {
-    [self saveImageToPhotos:_centerImageView.image];
-}
-
-- (void)saveImageToPhotos:(UIImage*)savedImage
-{
-    UIImageWriteToSavedPhotosAlbum(savedImage, self, @selector(image:didFinishSavingWithError:contextInfo:), NULL);
-}
-// 指定回调方法
-- (void)image: (UIImage *) image didFinishSavingWithError: (NSError *) error contextInfo: (void *) contextInfo
-{
-    NSLog(@"error = %@", error);
-    
-    NSString *msg = nil ;
-    if(error){
-        msg = @"保存失败";
-    }else{
-        msg = @"已保存到相册";
-    }
-    MBProgressHUD *statusHUD = [MBProgressHUD showHUDAddedTo:self animated:YES];
-    statusHUD.dimBackground = NO;
-    statusHUD.customView = [[UIView alloc] init];
-    statusHUD.mode = MBProgressHUDModeCustomView;
-    statusHUD.labelText = msg;
-    [statusHUD hide:YES afterDelay:1.0];
-}
 
 - (UIScrollView *)createScrollView:(NSInteger)tag {
     UIScrollView *scrollView = [[UIScrollView alloc] init];
